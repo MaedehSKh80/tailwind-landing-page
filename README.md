@@ -96,7 +96,15 @@ Built using Tailwind CSS responsive utilities.
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/MaedehSKh80/tailwind-landing-page.git
+
+
+
+git branch -M main
+
+
+
+git push -u origin main
 ```
 
 Navigate to the project folder:
