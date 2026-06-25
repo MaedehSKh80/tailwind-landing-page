@@ -2,6 +2,12 @@ import { useState } from "react";
 import HamburgerMenu from "../public/icons/hamburgermenu.svg?react";
 import UserIcon from "../public/icons/user.svg?react";
 import AboutIcon from "../public/icons/about.svg?react";
+import AboutPic from "../public/about/aboutPic.jpg";
+import Team1Pic from "../public/team/team1.jpg";
+import Team2Pic from "../public/team/team2.jpg";
+import Team3Pic from "../public/team/team3.jpg";
+import Team4Pic from "../public/team/team4.jpg";
+import HeroBg from "../public/bg/hero-bg.jpg";
 import "./index.css";
 
 function App() {
@@ -59,7 +65,10 @@ function App() {
       {/* hero */}
 
       <div className="container p-4 mx-auto h-screen flex h-screen relative content-center items-center justify-center pt-16 pb-32 ">
-        <div className="absolute top-0 w-full h-full bg-[url('/bg/hero-bg.jpg')] bg-cover bg-center"></div>
+        <div
+          className="absolute top-0 w-full h-full bg-cover bg-center"
+          style={{ backgroundImage: `url(${HeroBg})` }}
+        ></div>
         <div className="max-w-8xl container relative mx-auto text-center px-4 lg:w-8/12 ">
           <h1 className="mb-6 text-5xl font-black leading-tight text-white lg:text-7xl">
             Building Modern
@@ -161,7 +170,7 @@ function App() {
             <div className="overflow-hidden bg-white shadow-xl rounded-2xl shadow-gray-300/40">
               <div className="overflow-hidden h-56 sm:h-64 md:h-72">
                 <img
-                  src="/about/aboutPic.jpg"
+                  src={AboutPic}
                   alt="About us"
                   className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
                 />
@@ -209,9 +218,9 @@ function App() {
           {/* Card 1 */}
           <div className="transition-all duration-300 text-center hover:-translate-y-1">
             <img
-              src="/team/team1.jpg"
-              alt="Team member"
+              src={Team1Pic}
               className="object-cover w-full shadow-lg aspect-square rounded-2xl shadow-gray-300/50"
+              alt="Team member"
             />
 
             <h5 className="mt-5 text-xl font-bold text-gray-900">
@@ -247,9 +256,9 @@ function App() {
           {/* Card 2 */}
           <div className="transition-all duration-300 text-center hover:-translate-y-1">
             <img
-              src="/team/team2.jpg"
-              alt="Team member"
+              src={Team2Pic}
               className="object-cover w-full shadow-lg aspect-square rounded-2xl shadow-gray-300/50"
+              alt="Team member"
             />
 
             <h5 className="mt-5 text-xl font-bold text-gray-900">
@@ -276,9 +285,9 @@ function App() {
           {/* Card 3 */}
           <div className="transition-all duration-300 text-center hover:-translate-y-1">
             <img
-              src="/team/team3.jpg"
-              alt="Team member"
+              src={Team3Pic}
               className="object-cover w-full shadow-lg aspect-square rounded-2xl shadow-gray-300/50"
+              alt="Team member"
             />
 
             <h5 className="mt-5 text-xl font-bold text-gray-900">
@@ -305,9 +314,9 @@ function App() {
           {/* Card 4 */}
           <div className="transition-all duration-300 text-center hover:-translate-y-1">
             <img
-              src="/team/team4.jpg"
-              alt="Team member"
+              src={Team4Pic}
               className="object-cover w-full shadow-lg aspect-square rounded-2xl shadow-gray-300/50"
+              alt="Team member"
             />
 
             <h5 className="mt-5 text-xl font-bold text-gray-900">
