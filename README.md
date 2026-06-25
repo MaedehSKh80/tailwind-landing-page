@@ -4,6 +4,15 @@ A modern and fully responsive landing page built with React and Tailwind CSS.
 
 This project was created as part of my front-end development journey, focusing on clean UI design, responsive layouts, reusable components, and modern web development practices.
 
+<img width="1898" height="904" alt="image" src="https://github.com/user-attachments/assets/0e08e687-6f40-4700-85dc-730a36afa177" />
+
+<img width="1901" height="827" alt="image" src="https://github.com/user-attachments/assets/57979784-004c-468c-93ff-24281470044f" />
+
+<img width="1895" height="888" alt="image" src="https://github.com/user-attachments/assets/a303bfae-9ce7-4d3d-b2b3-ad4aa7b6b5df" />
+
+<img width="1882" height="797" alt="image" src="https://github.com/user-attachments/assets/c05ba598-df93-418c-bb28-061f511c49c2" />
+
+
 ---
 
 ## ✨ Features
