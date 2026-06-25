@@ -1,13 +1,13 @@
 import { useState } from "react";
-import HamburgerMenu from "../public/icons/hamburgermenu.svg?react";
-import UserIcon from "../public/icons/user.svg?react";
-import AboutIcon from "../public/icons/about.svg?react";
-import AboutPic from "../public/about/aboutPic.jpg";
-import Team1Pic from "../public/team/team1.jpg";
-import Team2Pic from "../public/team/team2.jpg";
-import Team3Pic from "../public/team/team3.jpg";
-import Team4Pic from "../public/team/team4.jpg";
-import HeroBg from "../public/bg/hero-bg.jpg";
+import HamburgerMenu from "./assets/icons/hamburgermenu.svg?react";
+import UserIcon from "./assets/icons/user.svg?react";
+import AboutIcon from "./assets/icons/about.svg?react";
+import AboutPic from "./assets/about/aboutPic.jpg";
+import Team1Pic from "./assets/team/team1.jpg";
+import Team2Pic from "./assets/team/team2.jpg";
+import Team3Pic from "./assets/team/team3.jpg";
+import Team4Pic from "./assets/team/team4.jpg";
+import HeroBg from "./assets/bg/hero-bg.jpg";
 import "./index.css";
 
 function App() {
